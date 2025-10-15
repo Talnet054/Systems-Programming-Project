@@ -1,5 +1,0 @@
-Error at line 2: Symbol 'LABEL' is already defined internally (CODE/DATA).
-Errors detected during assembly. No output files generated for error3_duplicate.
-
---- Processing file: error3_duplicate.as ---
---- Finished processing error3_duplicate.as ---
