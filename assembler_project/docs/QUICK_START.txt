@@ -1,0 +1,25 @@
+QUICK START GUIDE
+=================
+
+REQUIREMENTS: GCC compiler, Make, Linux/Unix/WSL
+
+1. COMPILE:
+   make
+
+2. RUN:
+   ./assembler tests/ps
+   (Note: omit the .as extension)
+
+3. CHECK OUTPUT:
+   cat tests/ps.ob     # Machine code
+   cat tests/ps.ent    # Entry points
+   cat tests/ps.ext    # Externals
+
+4. RUN ALL TESTS:
+   for test in tests/*.as; do
+     ./assembler ${test%.as}
+   done
+
+THAT'S IT!
+
+For more details, see README.txt

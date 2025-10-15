@@ -1,0 +1,6 @@
+Error at line 1: Immediate value 513 out of range [-512, 511].
+Errors detected during assembly. No output files generated for error1_out_of_range.
+
+--- Processing file: error1_out_of_range.as ---
+Running second pass...
+--- Finished processing error1_out_of_range.as ---

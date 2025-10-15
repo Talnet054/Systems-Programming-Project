@@ -1,0 +1,6 @@
+Error at line 1: Undefined symbol 'UNDEFINED_LABEL'.
+Errors detected during assembly. No output files generated for error2_undefined.
+
+--- Processing file: error2_undefined.as ---
+Running second pass...
+--- Finished processing error2_undefined.as ---

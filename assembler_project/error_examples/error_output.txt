@@ -1,0 +1,8 @@
+Error at line 2: Invalid label name 'mov #513, r1    ; Error'. Labels must start with an alphabetic character and contain only alphanumeric characters, max 30 chars.
+Error at line 3: Invalid label name 'add UNDEFINED, r2  ; Error'. Labels must start with an alphabetic character and contain only alphanumeric characters, max 30 chars.
+Error at line 4: Invalid label name 'jmp              ; Error'. Labels must start with an alphabetic character and contain only alphanumeric characters, max 30 chars.
+Error at line 5: Invalid label name 'mov r1, r9       ; Error'. Labels must start with an alphabetic character and contain only alphanumeric characters, max 30 chars.
+Errors detected during assembly. No output files generated for tests/test_errors.
+
+--- Processing file: tests/test_errors.as ---
+--- Finished processing tests/test_errors.as ---
